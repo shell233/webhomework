@@ -1,0 +1,40 @@
+body {
+    width: 322px;
+}
+
+.list {
+    display: flex;
+    margin: 0 0 10px 0;
+    border: 2px solid;
+}
+
+.list>div {
+    display: inline-block;
+}
+
+.content {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+.num {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.deleted {
+    height: 25px;
+}
+
+button {
+    float: right;
+    width: 100px;
+    background: white;
+}
+.add{
+    background:#35a268;
+    height: 25px;
+}
+.table {
+    width: 322px;
+}

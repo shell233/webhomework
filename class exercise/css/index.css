@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2023-03-17 15:33:12
+ * @version $Id$
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p>p{
+	width:300px;
+	height:20px;
+	background: #eee;
+	margin-bottom: 10px;
+}
+.p{
+	width:300px;
+	border-bottom: 1px solid #666;
+	margin: 10px;
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/**
+*
+* @authors Your Name (you@example.org)
+* @date    2023-03-20 10:36:36
+* @version $Id$
+*/
+body{
+    margin: 10px ;
+    width: 400px;
+    background: #f4f4f4;
+}
+*{
+margin: 0;
+padding: 0;
+}
+
+.number{
+    text-align: center;
+    color: #ff4000;
+    font-weight: bold;
+}
+.blackword{
+    text-align: center;
+}
+.second{
+    background-color: #ffe5dd;
+    padding: 5px 0 5px 0;
+}
+.emphasize{
+    text-align: center;
+    color: #fc4a2a;
+}
+.b1{
+    color: #fc4a2a;
+}
+.third{
+    padding: 15px 0 15px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+li{
+    display: inline;
+}
+li+li{
+    margin: 23px;
+}
+.collected{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid #fc4a2a;
+}
+
+tr{
+    height: 30px;
+}
+img{
+    margin: 20px;
+    margin-bottom: 0;
+}
+.first>div{
+    display: inline-block;
+    margin-inline: 20px;
+}
+.first{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.forth>div{
+    display: inline-block;
+    margin-inline: 20px;
+}
+.forth{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 10px 0 10px 0;
+    text-align: left;  
+}
+.fifth>div{
+    display: inline-block;
+    text-align: center;
+    width: 96px;
+}
+.fifth{
+    margin: 2px;
+    width: 400px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.fif{  
+    background-color: #ffffff;
+}
+.bot{
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ff4503;
+    border-left: 1px solid #ff4503;
+    border-right: 1px solid #ff4503;
+}
+.greyword{
+    color: #666666;
+}
+.seventh,tr,td{
+    border:2px solid #c9c9c9;
+    border-collapse: collapse;
+    width: 280px;
+}
+.sev{
+    padding: 10px 0 10px 0;
+}
+button{
+    background-color: #ff4503;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+}
+#p1{
+    color: #ff4503;
+    border-top: 1px solid #ff4503;
+    border-left: 1px solid #ff4503;
+    border-right: 1px solid #ff4503;
+}
+#p2{
+
+    border-bottom: 1px solid #ff4503;
+}
+#p3{
+ 
+    border-bottom: 1px solid #ff4503;
+}
+#p4{
+    border-bottom: 1px solid #ff4503;
+}

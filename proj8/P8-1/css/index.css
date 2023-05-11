@@ -1,0 +1,20 @@
+img {
+    width: 100px;
+    height: 100px;
+    background: #cccac9;
+    border: 1px solid black;
+}
+img+img{
+    margin: 10px;
+}
+.big-img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    position: fixed;
+    top: 0;
+    background-position: center;
+    background-color: #8b8987;
+    background-size: 50%;
+    border: 20px solid white;
+}

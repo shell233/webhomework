@@ -1,0 +1,42 @@
+.hide {
+    display: none;
+}
+
+.tab-box>div {
+    font-size: 100px;
+    color:#8a8886;
+    font-weight: bold;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tab-box {
+    width: 600px;
+    text-align: center;
+}
+
+.tab-menu>li {
+    width: 80px;
+    display: inline-block;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tab-menu {
+    display: flex;
+}
+
+.selected {
+    background: #c0c0c1;
+}
+
+.hover {
+    background: #eee;
+}

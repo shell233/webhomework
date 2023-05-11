@@ -1,0 +1,484 @@
+.ui-grid-row>.ui-grid-2,.ui-grid-3,.ui-grid-4,.ui-grid-6,.ui-grid-7,.ui-grid-8,.ui-grid-9,.ui-grid-10,.ui-grid-12,.ui-grid-13,.ui-grid-15,.ui-grid-20 {
+    margin: 0;
+}
+
+body {
+    width: 1000px;
+}
+
+.m-title-tab {   
+    padding: 7px 10px 1px 10px;
+    width: 75px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    background: #008dca;
+    color: #fefefe;
+    display: block;    
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+.m-title-time>span {
+    margin: 0 0 0 10px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 17px;
+    background: #ff4500;
+    color: #fefefe;
+    text-align: center;
+    font: bold;
+}
+
+
+.m-title-button {
+    display: flex;
+    float: right;  
+    justify-content: center;
+    align-items: center;
+    width: 77px;
+    color: #0028c2;
+    background: #f2f2f2;
+    font-size: 15px;
+    border: 1px solid #999;
+    border-radius: 5px;   
+}
+
+.m-title {
+    border-bottom: 5px solid #0089c8;
+}
+
+.m-title>span:nth-child(3) {
+    padding: 3px 5px;
+    background: #ff4500;
+    border-radius: 3px;
+    color: #fefefe;
+}
+
+.bd {
+    border: 1px solid #ddd;
+}
+
+.bd>.bd-time>span:nth-child(1) { 
+    font-size: 17px;
+    font-weight: bold;
+    color: #f20000;
+}
+
+.bd>.bd-time>span:nth-child(2) {
+    margin: 0 0 0 20px;
+    font-size: 15px;
+}
+
+.bd>.bd-time>span:nth-child(3) {   
+    font-weight: bold;
+    font-size: 15px;
+    color:#f20000;
+}
+
+.bd-totaltime {
+    padding: 5px 0 5px 10px;
+    background: #f2f2f2;
+}
+
+.bd-totaltime>span {
+    font-size: 15px;
+}
+
+.bd-totaltime>span:nth-child(2) {
+    color: #f20000;
+    font-weight: bold;
+}
+
+.bd-totaltime>span:nth-child(3) {
+    margin: 0 0 0 30px;
+}
+
+.bd-totaltime>span:nth-child(4) {
+    font-weight: bold;
+}
+
+.bd-totaltime>span:nth-child(5) {
+    margin: 0 0 0 25px;
+}
+
+.bd-totaltime>span:nth-child(6) {
+    color: #f20000;
+    font-weight: bold;
+}
+
+.bd-print {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top: 1px solid #ccc;
+    background: #fffbde;
+}
+
+.bd-print>img {
+    width: 16px;
+    height: 16px;
+}
+
+.bd-print>span {
+    margin: 0 5px;
+    font-size: 13px;
+    text-decoration-line: underline;
+    color: #0028c2;   
+}
+
+.bd-time {
+    padding: 5px 0 0 10px;
+    background: #f2f2f2;
+}
+.title {
+    margin: 5px 0 1px 0;
+}
+
+.title>div {
+    text-align: center;
+    border-right: 2px solid white;
+    color: #567e95;
+    background: #c9dde9;
+}
+
+.title>.ui-grid-4 {
+    margin: 0;
+}
+
+.from {
+    border-top: 1px solid white;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+}
+
+
+.from>span:nth-child(2) {
+    padding: 5px 0 0 0;
+    margin: 0 0 0 15px;
+    text-decoration-line: underline;
+    font-size: 13px;
+    text-align: right;
+    align-items: center;
+    color: #0028c2;
+}
+
+.pass-des-time>span {
+    display: block;
+    font-size: 15px;
+}
+
+.pass-des-time>span:nth-child(1) {
+    font-weight: bold;
+}
+
+.pass-des-transport {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-left: 2px solid #88cdde;
+}
+
+.pass-des-position {
+    padding: 0 1px 0 0;
+}
+
+.pass-des-time {
+    padding: 7px 0;
+    text-align: center;
+    border-right: 2px solid #88cdde;
+}
+
+.pass-place {
+    background: #f2f2f2;
+    border: 1px solid #b7b0b1;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.bus {
+    margin: 0 0 0 5px;
+    font-size: 16px;
+    font-weight: bold;   
+    color: #8e611e;
+}
+
+.train {
+    margin: 0 0 0 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold; 
+    color: #009aff;
+}
+
+.ui-grid-row {
+    width: 1000px;
+}
+
+.pass-des {
+    display: flex;
+}
+
+.pass-des-route {
+    margin: 0 0px 0 10px;
+    padding: 5px 2px;
+    font-size: 17px;
+    color: #0f72ab;
+    border-right: 1px solid #b7b0b1;
+}
+
+.pass-des-money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #b7b0b1;
+    border-right: 1px solid #b7b0b1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pass-place-time {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 13px;
+}
+
+.pass-place-name {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 0 0 -10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pass-des-seat {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    border-right: 1px solid #b7b0b0;
+}
+
+.pass-des-distance {
+    display: flex;
+    align-items: center;
+    font-size: 16px;  
+    justify-content: center;
+}
+
+.pass-des-transport>img {
+    margin: 0 0 0 10px;
+}
+
+.pass-place-graph {   
+    margin: 0 0 0 26px;
+    font-size: 15px;
+}
+
+.graph-Chinese>span {
+    text-decoration-line: underline;
+    color: #0028c2;
+}
+
+.graph-Japan>span {
+    text-decoration-line: underline;
+    color: #0028c2;
+}
+
+.graph-Chinese {
+    display: flex;
+    justify-content: end;
+}
+
+.graph-Japan {
+    display: flex;
+    justify-content: end;
+}
+
+.graph-chinese>span+span {
+    margin: 0 3px;
+}
+
+.graph-Japan>span+span {
+    margin: 0 3px;
+}
+
+.pass-des-route>div:nth-child(2) {
+    padding: 0 10px;
+    width: 86px;
+    background: #00408f;
+    border-radius: 3px;
+    color: white;
+}
+
+.pass-des-route>div:nth-child(1) {
+    display: flex;
+    width: 285px;
+    text-decoration-line: underline;
+}
+
+.ui-grid-4 {
+    margin: 0 1px 0 0;
+}
+
+.pass-place-route {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px 0;
+    margin: 0 0 0 18px;
+    font-size: 16px;    
+}
+
+.pass-place-graph>.span {
+    display: block;
+}
+
+.to-place {
+    border: 1px solid #b7b0b0;
+    background: #f2f2f2;
+}
+
+.to-des {
+    display: flex;
+}
+
+.to-des-time {
+    padding: 7px 0;
+    text-align: center;
+    border-right: 2px solid #88cddd;   
+}
+
+.to-des-route {
+    margin: 0 0px 0 13px;
+    padding: 5px 2px;
+    font-size: 17px;
+    color: #0f72ab;
+    border-right: 1px solid #b7b0b0;   
+}
+
+.to-des-money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #b7b0b0;
+    border-right: 1px solid #b7b0b0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.to-place-time {
+    display: flex;
+    padding: 10px 0;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.to-place-name {
+    display: flex;
+    padding: 10px 0;
+    margin: 0 0 0 -34px;
+    font-size: 20px;   
+    align-items: center;
+    font-weight: bold;    
+}
+
+.to-des-seat {
+    display: flex;  
+    font-size: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #b7b0b0;
+}
+
+.to-des-distance {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-des-transport {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-left: 2px solid #88cddd;
+}
+
+.to-des-transport>img {
+    margin: 0 0 0 10px;
+}
+
+.to-des-route>div:nth-child(1) {
+    display: flex;
+    width: 285px;
+    text-decoration-line: underline;
+}
+
+.to-des-route>div:nth-child(2) {
+    padding: 0 10px;
+    text-align: center;
+    background: #00408f;
+    border-radius: 3px;
+    color: white;
+    width: 100px;
+}
+
+.to-place-graph {
+    margin: 0 0 0 27px;
+    font-size: 15px;
+}
+
+
+.to-place-route {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 0 0 38px;
+    font-size: 16px;    
+    height: 30px;   
+}
+
+.pass-place-graph>.span {
+    display: block;
+}
+
+.m-title-button>img {
+    width: 25px;
+}
+
+.from-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.from-name>span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.to-des-time>span {
+    display: block;
+    font-size: 15px;
+}
+
+.to-des-time>span:nth-child(1) {
+    font-weight: bold;
+}
+
+.to-place-name>img+img {
+    margin: 0 0 0 5px;
+}
+

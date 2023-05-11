@@ -1,0 +1,356 @@
+// $primary: #276fc2;
+// $secondary: #e8d21d;
+// $border-radius: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+body {
+  width: 400px;
+  background-color: #f1f0ed;
+}
+
+.row > .col-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  flex-direction: column;
+}
+
+section.act {
+  background: white;
+  border-bottom: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+section.adv {
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+section.list {
+  border: 1px solid #999;
+}
+
+.adv > .row:nth-child(1) {
+  height: 150px;
+  border-bottom: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.row {
+  //width: 400px;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bk-head{
+  background:#00c2af ;
+}
+.bk-1{
+background: #ff8905;
+}
+.bk-2{
+background: #ff6640;
+}
+.bk-3{
+background: #7089f6;
+}
+.bk-4{
+background: #f88505;
+}
+.bk-5{
+background: #00cdf0;
+}
+.bk-6{
+background: #ffbb53;
+}
+.bk-7{
+background: #00cdf0;
+}
+.bk-8{
+background: #ef8005;
+}
+.adv > .row > .col-4 {
+  border-right: 1px solid #999;
+  padding-left: 20px;
+}
+
+.col-8 > .row {
+  //width: 253px;
+  height: 75px;
+  border-bottom: 1px solid #999;
+}
+
+.adv > .row:nth-child(2) {
+  border-top: 1px solid #999;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.adv > .row > .col-6:nth-child(1) {
+  border-right: 1px solid #999;
+}
+
+.col-8 > .row:nth-child(2) > .col-6:nth-child(1) {
+  border-right: 1px solid #999;
+}
+
+.col-6 > img.img-thumbnail {
+  float: right;
+}
+
+.col-12 {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.list > .row {
+  align-items: center;
+  border-bottom: 1px solid #999;
+}
+
+.menu {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.sec {
+  width: 5px;
+  height: 5px;
+  float: right;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transform: rotate(45deg);
+  margin: 0 0 0 8px;
+}
+
+.locate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pos {
+  color: white;
+}
+
+.search {
+  background: #00a595;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon>img {
+    width: 15px;
+    height: 15px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person-icon>img {
+    width: 25px;
+    height: 25px;
+}
+
+.name {
+  color: white;
+}
+
+.act > .row > .col-3 > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.text-1 {
+  color: #0da901;
+}
+.text-2{
+  color:#ff480f;
+}
+.text-3{
+  color: #ff4aa8;
+}
+.text-4{
+color: #ff8e00;
+}
+.text-5{
+  color:#ff7c5c;
+}
+.text-6{
+  color:#ff9d02;
+}
+.text-7{
+  color:#06c7b6;
+}
+
+.act > .row > .col-3 > .des {
+  color: #999;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.desc {
+  font-size: 5px;
+}
+
+img.img-thumbnail.img-45 {
+  width: 45px;
+  height: 45px;
+}
+img.img-thumbnail {
+  width: 80px;
+  background: #999;
+}
+
+img.img-thumbnail.img-45 {
+  width: 40px;
+  height: 40px;
+  margin: -6px 40px 0 0;
+}
+img.img-thumbnail.img-65 {
+  width: 65px;
+  height: 65px;
+}
+
+.tl-pink {
+  margin: 5px 0px 9px -12px;
+}
+
+
+.adv > .row > .col-3:nth-child(2) {
+  border-right: 1px solid #999;
+}
+
+.time {
+  display: flex;
+  margin: 5px 0;
+}
+
+.hour {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 5px;
+}
+
+.minute {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 5px;
+}
+
+.second {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 5px;
+}
+
+.point {
+  font-size: 5px;
+}
+
+.row.choose {
+  padding: 8px 0;
+}
+.row.choose > .col-3 {
+  padding: 0;
+}
+
+.choose > .col-4 > img.img-thumbnail {
+  width: 90px;
+  height: 80px;
+}
+
+.choose > .col-9 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.money {
+  margin: 10px 0 0 0;
+}
+
+span.sold.text-muted {
+  font-size: 10px;
+  float: right;
+  padding: 0 5px 0 0;
+}
+
+span.rack {
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 1px 4px;
+  text-align: center;
+  font-size: 10px;
+}
+
+span.price {
+  padding: 1px 4px;
+  text-align: center;
+  font-size: 10px;
+}
+
+span.RMB.text-info {
+  font-size: 10px;
+}
+.next {
+  background: #8fc6ea;
+}
+
+.next > .sec {
+  width: 5px;
+  height: 5px;
+  float: right;
+  border-right: 1px solid #0dcaf0;
+  border-bottom: 1px solid #2ed8fa;
+  transform: rotate(315deg);
+  margin: 0 0 0 8px;
+}
+
+
+.list {
+  .row {
+    .img {
+      overflow: hidden;
+
+      &::after {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #00c2af;
+        width: 100%;
+        height: 25%;
+        content: '免预约';
+        color: white;
+        transform: translate(-25%, -350%) rotate(-45deg);
+        transform-origin: center;
+        font-size: 10px;
+      }
+    }
+  }
+}

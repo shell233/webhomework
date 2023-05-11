@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    width: 1210px;
+    height: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #eee;
+}
+
+.module {
+    width: 390px;
+    height: 370px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 10px 0 0 10px;
+    border: 1px solid #ddd;
+}
+
+.picture {
+    width: 388px;
+    height: 288px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 388px;
+    height: 288px;
+    box-sizing: border-box;
+}
+
+.introduction {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 370px;
+    height: 20px;
+    margin: 0 0 3px 0;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.inf {
+    display: flex;
+    height: 20px;
+    flex-direction: row;
+}
+.number {
+    width: 370px;
+    height: 30px;
+    background: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0 10px;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Price {
+    display: flex;
+    align-items: center;
+}
+
+.already {
+    display: flex;
+    align-items: flex-end;
+}
+
+.symbol {
+    font-size: 5px;
+    color: #f72862;
+    font-size: 18px;
+}
+.current-p {
+    font-weight: bold;
+    color: #f72862;
+    font-size: 25px;
+}
+.original-p {
+    font-size: 5px;
+    margin: 10px 0 0 0;
+    transform: scale(0.75);
+    text-decoration-line: line-through;
+    color: #9c9da0;
+}
+.al-n {
+    color: #f72862;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.al {
+    font-size: 5px;
+    transform: scale(0.75);
+    color: #9c9da0;
+}
+.inf1 {
+    /* width: 370px; */
+    height: 20px;
+    margin: 0 5px 10px 0;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    color: #f72862;
+    display: flex;
+    align-items: flex-end;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+}
+
+.inf2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    color: #9c9da0;
+}
+
